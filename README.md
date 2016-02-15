@@ -4,7 +4,7 @@ For SOFTDEV, QUALITY, and PROJMAN
 
 Members:
 
-Rey Mark Bautista
-Patrick George Cariño
-Leirrand Christian Ochotorena
-Angela Camille Ordoñez
+Rey Mark Bautista<br>
+Patrick George Cariño<br>
+Leirrand Christian Ochotorena<br>
+Angela Camille Ordoñez<br>
