@@ -1,7 +1,5 @@
 # PROJECT D.I.W.A.
 
-For SOFTDEV, QUALITY, and PROJMAN
-
 Adviser:
 <ul>
   <li>Jacob Catayoc</li>
