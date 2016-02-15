@@ -2,8 +2,12 @@
 
 For SOFTDEV, QUALITY, and PROJMAN
 
-Members:
+Adviser:
+<ul>
+  <li>Jacob Catayoc</li>
+</ul>
 
+Members:
 <ul>
   <li>Rey Mark Bautista</li>
   <li>Patrick George Cariño</li>
