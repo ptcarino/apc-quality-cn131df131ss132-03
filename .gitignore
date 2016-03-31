@@ -1,0 +1,5 @@
+/application/web/projectdiwa/vendor
+/application/web/projectdiwa/node_modules
+Homestead.yaml
+Homestead.json
+.env
