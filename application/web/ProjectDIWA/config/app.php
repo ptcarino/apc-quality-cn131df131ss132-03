@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -97,10 +97,6 @@ return [
 
     'log' => 'single',
 
-
-
-
-    'env' => env('APP_ENV', 'production'),
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers

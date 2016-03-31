@@ -11,6 +11,7 @@
                 <tr>
                     <td>{{ $region->id }}</td>
                     <td>{{ $region->name }}</td>
+                    <td>{{ $region->designation }}</td>
                 </tr>
             @endforeach
         </table>

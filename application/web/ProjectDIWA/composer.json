@@ -1,17 +1,14 @@
 {
-    "name": "laravel/framework",
+    "name": "laravel/laravel",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.2.*",
+        "laravel/framework": "5.1.*",
         "barryvdh/laravel-ide-helper": "v2.1.0",
-        "illuminate/html": "^5.0",
-        "symfony/dom-crawler": "~3.0",
-        "symfony/css-selector": "~3.0"
-
+        "illuminate/html": "^5.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
