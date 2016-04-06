@@ -15,3 +15,6 @@ Route::get('/', function () {
     $page_title = 'Dashboard';
     return view('admin_template', compact('page_title'));
 });
+
+Route::resource('shelters', 'SheltersController');
+Route::resource('needs', 'NeedsController');

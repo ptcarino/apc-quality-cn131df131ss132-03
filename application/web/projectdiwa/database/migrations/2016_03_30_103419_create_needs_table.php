@@ -14,8 +14,11 @@ class CreateNeedsTable extends Migration
     {
         Schema::create('needs', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('description');
-            $table->integer('quantity');
+            $table->integer('food');
+            $table->integer('water');
+            $table->integer('medicine');
+            $table->integer('clothing');
+            $table->integer('sleeping_bag');
             $table->timestamps();
             $table->integer('shelters_id')->unsigned();
             $table->foreign('shelters_id')->references('id')->on('shelters');

@@ -1,11 +1,11 @@
 @extends('admin_template')
 
 @section('content')
-    <h1>Add a Shelter</h1>
+    <h1>Request Form</h1>
 
     <hr/>
 
-    {!! Form::open(['url' => 'shelters']) !!}
+    {!! Form::open(['url' => 'needs']) !!}
 
     <div class="form-group">
         <div class="table-responsive">
@@ -39,14 +39,13 @@
                         {!! Form::label('sleepingbag', 'Sleeping Bag') !!}</td>
                     <td>{!! Form::input('number', 'sleepingbagqty', null, ['class' => 'form-control']) !!}</td>
                 </tr>
-                    <td>{!! Form::label('barangays_id', 'Barangays') !!}</td>
-                    <td>{!! Form::select('barangays_id', $barangay, null, ['class' => 'form-control']) !!}</td>
+                <td>{!! Form::hidden('shelters_id', '3') !!}</td>
             </table>
         </div>
     </div>
 
     <div class="form-group">
-        {!! Form::submit('Add Shelter', ['class' => 'btn btn-primary form-control']) !!}
+        {!! Form::submit('Request Needs', ['class' => 'btn btn-primary form-control']) !!}
     </div>
 
     {!! Form::close() !!}

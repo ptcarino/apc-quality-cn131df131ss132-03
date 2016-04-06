@@ -7,8 +7,6 @@
 {!! Form::open(['url' =>'accounts']) !!}
 <div class="form-group">
 
-
-
     @include('errors.list')
     @include('accounts.form')
 
