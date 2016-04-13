@@ -7,17 +7,9 @@
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu">
             <li class="header">GitHub</li>
-            <li><a href="https://github.com/ptcarino/projectdiwa" target="_blank"><span>Download on GitHub</span></a></li>
+            <li><a href="https://github.com/ptcarino/apc-quality-cn131df131ss132-03" target="_blank"><span>Download on GitHub</span></a></li>
             <li class="header">Database Management</li>
             <!-- Optionally, you can add icons to the links -->
-            <li class="treeview">
-                <a href="#"><span>Account</span> <i class="fa fa-angle-left pull-right"></i></a>
-                <ul class="treeview-menu">
-                    <li><a href="{{ url('accounts') }}">List</a></li>
-                    <li><a href="{{ url('accounts/create') }}">Add</a></li>
-
-                </ul>
-            </li>
             <li class="treeview">
                 <a href="#"><span>City</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
@@ -25,32 +17,6 @@
                     <li><a href="{{ url('cities/create') }}">Add</a></li>
                     <li><a href="{{ url('cities/edit') }}">Edit</a></li>
                     <li><a href="#">Delete</a></li>
-                </ul>
-            </li>
-
-            <li class="treeview">
-                <a href="#"><span>Helpline</span> <i class="fa fa-angle-left pull-right"></i></a>
-                <ul class="treeview-menu">
-                    <li><a href="{{ url('helplines') }}">List</a></li>
-                    <li><a href="{{ url('helplines/create') }}">Add</a></li>
-
-                </ul>
-            </li>
-            <li class="treeview">
-                <a href="#"><span>Info Bulletin</span> <i class="fa fa-angle-left pull-right"></i></a>
-                <ul class="treeview-menu">
-                    <li><a href="#">List</a></li>
-                    <li><a href="#">Add</a></li>
-                    <li><a href="#">Edit</a></li>
-                    <li><a href="#">Delete</a></li>
-                </ul>
-            </li>
-            <li class="treeview">
-                <a href="#"><span>Location Records</span> <i class="fa fa-angle-left pull-right"></i></a>
-                <ul class="treeview-menu">
-                    <li><a href="{{ url('location_records') }}">List</a></li>
-                    <li><a href="{{ url('location_records/create') }}">Add</a></li>
-
                 </ul>
             </li>
 

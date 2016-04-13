@@ -18,3 +18,4 @@ Route::get('/', function () {
 
 Route::resource('shelters', 'SheltersController');
 Route::resource('needs', 'NeedsController');
+Route::resource('regions', 'RegionsController');
