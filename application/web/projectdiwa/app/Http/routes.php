@@ -16,6 +16,12 @@ Route::get('/', function () {
     return view('admin_template', compact('page_title'));
 });
 
+// for RRO
 Route::resource('shelters', 'SheltersController');
 Route::resource('needs', 'NeedsController');
 Route::resource('regions', 'RegionsController');
+
+// for Admin
+Route::group(['prefix' => 'admin'], function () {
+    // TODO: Admin routes
+});

@@ -4,36 +4,42 @@
 
     <hr/>
 
-    {!! Form::open(['url' => 'needs']) !!}
+    {!! Form::open(['url' => 'region']) !!}
 
     <div class="form-group">
         <div class="table-responsive">
             <table class="table">
                 <tr>
                     <th>Type</th>
-                    <th>Quantity (No. of Families)</th>
+                    <th>No. of Families</th>
                 </tr>
+
+                @include('form')
+
                 <tr>
-                    <td>{!! Form::label('food', 'Food') !!}</td>
-                    <td>{!! Form::input('number', 'food', null, ['class' => 'form-control']) !!}</td>
+                    <td>{!! Form::label('lifeboat', 'Life Boat:') !!}</td>
+                    <td>{!! Form::input('number', 'lifeboat', null, ['class' => 'form-control']) !!}</td>
                 </tr>
+
                 <tr>
-                    <td>{!! Form::label('water', 'Water') !!}</td>
-                    <td>{!! Form::input('number', 'water', null, ['class' => 'form-control']) !!}</td>
+                    <td>{!! Form::label('ambulance', 'Ambulance:') !!}</td>
+                    <td>{!! Form::input('number', 'ambulance', null, ['class' => 'form-control']) !!}</td>
                 </tr>
+
                 <tr>
-                    <td>{!! Form::label('medicine', 'Medicine') !!}</td>
-                    <td>{!! Form::input('number', 'medicine', null, ['class' => 'form-control']) !!}</td>
+                    <td>{!! Form::label('shovel', 'Shovel:') !!}</td>
+                    <td>{!! Form::input('number', 'shovel', null, ['class' => 'form-control']) !!}</td>
                 </tr>
+
                 <tr>
-                    <td>{!! Form::label('clothing', 'Clothing') !!}</td>
-                    <td>{!! Form::input('number', 'clothing', null, ['class' => 'form-control']) !!}</td>
+                    <td>{!! Form::label('Amphibian', 'Amphibian:') !!}</td>
+                    <td>{!! Form::input('number', 'Amphibian', null, ['class' => 'form-control']) !!}</td>
                 </tr>
+
                 <tr>
-                    <td>{!! Form::label('sleeping_bag', 'Sleeping Bag') !!}</td>
-                    <td>{!! Form::input('number', 'sleeping_bag', null, ['class' => 'form-control']) !!}</td>
+                    <td>{!! Form::label('remarks', 'Remarks:') !!}</td>
+                    <td>{!! Form::textarea('remarks', null, ['class' => 'form-control', 'rows' => '4']) !!}</td>
                 </tr>
-                <td>{!! Form::hidden('shelters_id', '1') !!}</td>
             </table>
         </div>
     </div>
